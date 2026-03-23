@@ -12,6 +12,7 @@ library instead of `@tma.js/sdk`:
 - Vue: [@tma.js/sdk-vue](../tma-js-sdk-vue.md)
 - Svelte: [@tma.js/sdk-svelte](../tma-js-sdk-svelte.md)
 - Solid: [@tma.js/sdk-solid](../tma-js-sdk-solid.md)
+- Angular: [@tma.js/sdk-angular](../tma-js-sdk-angular.md)
 
 For example, if your main library is React, you should install `@tma.js/sdk-react` instead
 of `@tma.js/sdk`.

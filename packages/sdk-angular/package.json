@@ -1,0 +1,58 @@
+{
+  "name": "@tma.js/sdk-angular",
+  "version": "0.0.0",
+  "description": "Angular bindings for Mini Apps client SDK.",
+  "author": "Telegram Mini Apps <https://github.com/Telegram-Mini-Apps>",
+  "homepage": "https://github.com/Telegram-Mini-Apps/tma.js#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Telegram-Mini-Apps/tma.js.git",
+    "directory": "packages/sdk-angular"
+  },
+  "bugs": {
+    "url": "https://github.com/Telegram-Mini-Apps/tma.js/issues"
+  },
+  "keywords": [
+    "telegram-mini-apps",
+    "typescript",
+    "sdk",
+    "angular"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/dts/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/dts/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "default": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.build.json",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tma.js/sdk": "workspace:^"
+  },
+  "peerDependencies": {
+    "@angular/core": "^18.0.0"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^18.2.0",
+    "@angular/core": "^18.2.0",
+    "@angular/platform-browser-dynamic": "^18.2.0",
+    "tsconfig": "workspace:*",
+    "zone.js": "~0.14.10"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

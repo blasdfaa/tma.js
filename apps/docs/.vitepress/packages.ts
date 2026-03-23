@@ -80,6 +80,7 @@ export const packagesLinksGenerator = (prefix: string = '') => {
         '@tma.js/sdk-svelte': 'tma-js-sdk-svelte',
         '@tma.js/sdk-vue': 'tma-js-sdk-vue',
         '@tma.js/sdk-solid': 'tma-js-sdk-solid',
+        '@tma.js/sdk-angular': 'tma-js-sdk-angular',
       }),
       section('Node', {
         '@tma.js/init-data-node': ['tma-js-init-data-node', {

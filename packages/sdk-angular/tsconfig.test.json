@@ -1,0 +1,10 @@
+{
+  "extends": "tsconfig/esnext-dom.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true
+  },
+  "include": [
+    "src"
+  ]
+}
